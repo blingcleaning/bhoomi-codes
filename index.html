@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bhoomi Codes | Web Design, SEO, Google Business & Google Ads Agency</title>
+<meta name="description" content="Bhoomi Codes builds high-converting websites for businesses with built-in SEO, Google Business Profile setup and Google Ads management. We code. You grow." />
+<meta name="keywords" content="website design, web development, SEO services, Google Business Profile, Google My Business setup, Google Ads management, PPC, small business website, ecommerce website, local SEO, search engine optimization, digital marketing agency, responsive websites, lead generation, Bhoomi Codes" />
+<meta name="author" content="Bhoomi Codes" />
+<meta property="og:title" content="Bhoomi Codes | Websites + SEO + Google Ads" />
+<meta property="og:description" content="We code. You grow. Websites engineered to rank on Google, attract customers and drive conversions." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/png" href="Logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Bhoomi Codes",
+  "description": "Website development, SEO, Google Business Profile setup and Google Ads management for growing businesses.",
+  "image": "Logo.png",
+  "areaServed": "Worldwide",
+  "serviceType": ["Web Design", "Web Development", "SEO", "Google Business Profile", "Google Ads"]
+}
+</script>
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-follower" id="cursorFollower"><span class="cursor-label" id="cursorLabel"></span></div>
+
+<!-- Page transition overlay -->
+<div class="page-transition" id="pageTransition"></div>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <div class="loader-grid">
+    <div class="loader-row"><span data-text="Bhoomi">Bhoomi</span></div>
+    <div class="loader-row"><span data-text="Codes">Codes</span></div>
+  </div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+  <div class="loader-percent" id="loaderPercent">0</div>
+</div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo" data-magnetic>
+      <img src="Logo.png" alt="Bhoomi Codes" />
+    </a>
+    <nav class="nav-links">
+      <a href="#services" class="nav-link"><span>Services</span></a>
+      <a href="#work" class="nav-link"><span>Work</span></a>
+      <a href="#process" class="nav-link"><span>Process</span></a>
+      <a href="#about" class="nav-link"><span>About</span></a>
+      <a href="#contact" class="nav-cta" data-magnetic>
+        <span class="cta-text">Let's Talk</span>
+        <span class="cta-circle"></span>
+      </a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services">Services</a>
+  <a href="#work">Work</a>
+  <a href="#process">Process</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="grain"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-tag" data-reveal="fade">
+      <span class="dot"></span> Open for new projects · 2026
+    </div>
+    <h1 class="hero-title">
+      <span class="line"><span class="line-inner" data-split>We code.</span></span>
+      <span class="line"><span class="line-inner" data-split>You <em>grow.</em></span></span>
+    </h1>
+    <div class="hero-meta">
+      <p class="hero-sub" data-reveal="words">
+        A boutique studio building SEO-ready websites, optimised Google Business Profiles and high-ROI Google Ads for ambitious businesses.
+      </p>
+      <div class="hero-actions" data-reveal="fade">
+        <a href="#contact" class="btn btn-primary" data-magnetic>
+          <span>Start a project</span>
+          <span class="btn-arrow">↗</span>
+        </a>
+        <a href="#work" class="btn-text" data-magnetic>
+          <span class="btn-text-inner">See our work</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-marquee">
+    <div class="marquee-track">
+      <span>Websites</span><span class="sep">✦</span>
+      <span>SEO</span><span class="sep">✦</span>
+      <span>Google Business Profile</span><span class="sep">✦</span>
+      <span>Google Ads</span><span class="sep">✦</span>
+      <span>Local SEO</span><span class="sep">✦</span>
+      <span>Lead Generation</span><span class="sep">✦</span>
+      <span>Websites</span><span class="sep">✦</span>
+      <span>SEO</span><span class="sep">✦</span>
+      <span>Google Business Profile</span><span class="sep">✦</span>
+      <span>Google Ads</span><span class="sep">✦</span>
+      <span>Local SEO</span><span class="sep">✦</span>
+      <span>Lead Generation</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <div class="scroll-cue" data-reveal="fade">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- INTRO / VALUE PROP -->
+<section class="intro" id="about">
+  <div class="container">
+    <div class="section-label" data-reveal="fade">01 — Who we are</div>
+    <h2 class="big-text">
+      <span class="line"><span class="line-inner" data-split>It's never just a website.</span></span>
+      <span class="line muted"><span class="line-inner" data-split>It's how customers find you on Google,</span></span>
+      <span class="line muted"><span class="line-inner" data-split>trust you, and choose you.</span></span>
+    </h2>
+    <div class="intro-grid">
+      <div class="intro-card" data-reveal="rise">
+        <div class="card-num">01</div>
+        <h3>Built for Google</h3>
+        <p>Every site we ship is engineered with on-page SEO, technical SEO, schema markup and the keywords your customers actually search for.</p>
+      </div>
+      <div class="intro-card" data-reveal="rise">
+        <div class="card-num">02</div>
+        <h3>Built for humans</h3>
+        <p>Pixel-perfect design, smooth animations and fast load times that turn visitors into leads. No bloated templates.</p>
+      </div>
+      <div class="intro-card" data-reveal="rise">
+        <div class="card-num">03</div>
+        <h3>Built to grow</h3>
+        <p>From your first Google Business Profile to your first Google Ads campaign — we handle the full growth stack.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-label" data-reveal="fade">02 — Services</div>
+    <h2 class="section-title">
+      <span class="line"><span class="line-inner" data-split>What we do</span></span>
+      <span class="line"><span class="line-inner" data-split><em>(really well).</em></span></span>
+    </h2>
+
+    <div class="service-list">
+      <article class="service-row" data-reveal="rise">
+        <div class="service-num">01</div>
+        <div class="service-content">
+          <h3 class="service-title"><span data-split>Website Design &amp; Development</span></h3>
+          <p>Custom-coded, lightning-fast websites for small businesses, startups and ecommerce. Mobile-first, accessible, and packed with the right keywords from day one.</p>
+          <div class="service-tags">
+            <span>Responsive Design</span><span>Webflow / Custom Code</span><span>Ecommerce</span><span>Landing Pages</span>
+          </div>
+        </div>
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=900&q=80" alt="Web design and development" loading="lazy" />
+        </div>
+      </article>
+
+      <article class="service-row" data-reveal="rise">
+        <div class="service-num">02</div>
+        <div class="service-content">
+          <h3 class="service-title"><span data-split>SEO &amp; Search Optimization</span></h3>
+          <p>On-page SEO, technical SEO, keyword research, content strategy and backlinks. We get your business in front of customers actively searching on Google.</p>
+          <div class="service-tags">
+            <span>Keyword Research</span><span>On-page SEO</span><span>Technical SEO</span><span>Local SEO</span>
+          </div>
+        </div>
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?w=900&q=80" alt="SEO and search optimization" loading="lazy" />
+        </div>
+      </article>
+
+      <article class="service-row" data-reveal="rise">
+        <div class="service-num">03</div>
+        <div class="service-content">
+          <h3 class="service-title"><span data-split>Google Business Profile</span></h3>
+          <p>Verified, optimized and ranking. We set up and manage your Google Business Profile so you show up on Google Maps, "near me" searches and the local 3-pack.</p>
+          <div class="service-tags">
+            <span>GBP Setup</span><span>Verification</span><span>Posts &amp; Reviews</span><span>Map Pack Ranking</span>
+          </div>
+        </div>
+        <div class="service-image">
+          <img src="gbp-mockup.svg" alt="Google Business Profile listing on Google Maps" loading="lazy" />
+        </div>
+      </article>
+
+      <article class="service-row" data-reveal="rise">
+        <div class="service-num">04</div>
+        <div class="service-content">
+          <h3 class="service-title"><span data-split>Google Ads Management</span></h3>
+          <p>Performance-driven Search, Display and Performance Max campaigns. Tight budgets, sharp targeting, and conversion tracking that actually works.</p>
+          <div class="service-tags">
+            <span>Search Ads</span><span>Performance Max</span><span>Conversion Tracking</span><span>Remarketing</span>
+          </div>
+        </div>
+        <div class="service-image">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=80" alt="Google Ads PPC campaigns" loading="lazy" />
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- BIG MARQUEE -->
+<section class="marquee-section">
+  <div class="marquee-big">
+    <div class="marquee-big-track">
+      <span>Websites that rank.</span>
+      <span class="dot-sep">●</span>
+      <span class="outline">SEO that converts.</span>
+      <span class="dot-sep">●</span>
+      <span>Ads that scale.</span>
+      <span class="dot-sep">●</span>
+      <span class="outline">Brands that grow.</span>
+      <span class="dot-sep">●</span>
+      <span>Websites that rank.</span>
+      <span class="dot-sep">●</span>
+      <span class="outline">SEO that converts.</span>
+      <span class="dot-sep">●</span>
+      <span>Ads that scale.</span>
+      <span class="dot-sep">●</span>
+      <span class="outline">Brands that grow.</span>
+      <span class="dot-sep">●</span>
+    </div>
+  </div>
+</section>
+
+<!-- WORK / PORTFOLIO -->
+<section class="work" id="work">
+  <div class="container">
+    <div class="section-label" data-reveal="fade">03 — Selected work</div>
+    <h2 class="section-title">
+      <span class="line"><span class="line-inner" data-split>Recent</span></span>
+      <span class="line"><span class="line-inner" data-split><em>projects.</em></span></span>
+    </h2>
+  </div>
+
+  <div class="work-stack">
+
+    <article class="work-item work-item--video" data-cursor="View">
+      <div class="work-item-inner">
+        <div class="work-media">
+          <video class="work-video" muted loop playsinline preload="metadata" poster="">
+            <source src="clip1.mp4" type="video/mp4" />
+          </video>
+          <div class="work-overlay"></div>
+        </div>
+        <div class="work-meta">
+          <div class="work-meta-top">
+            <span class="work-index">— 01</span>
+            <span class="work-tag">Website · Local SEO</span>
+          </div>
+          <h3 class="work-title"><span data-split>Invincible Tiling</span></h3>
+          <p class="work-desc">A tiling specialist's online home. Custom-built site, local SEO targeting service-area keywords, and a Google Business Profile that ranks in the map pack.</p>
+          <div class="work-arrow">↗</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="work-item work-item--video work-item--reverse" data-cursor="View">
+      <div class="work-item-inner">
+        <div class="work-media">
+          <video class="work-video" muted loop playsinline preload="metadata" poster="">
+            <source src="clip2.mp4" type="video/mp4" />
+          </video>
+          <div class="work-overlay"></div>
+        </div>
+        <div class="work-meta">
+          <div class="work-meta-top">
+            <span class="work-index">— 02</span>
+            <span class="work-tag">Website · Google Ads</span>
+          </div>
+          <h3 class="work-title"><span data-split>Bling Cleaning</span></h3>
+          <p class="work-desc">A premium cleaning service with an online booking flow and a tightly targeted Google Ads campaign that fills the calendar week after week.</p>
+          <div class="work-arrow">↗</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="work-item work-item--video" data-cursor="View">
+      <div class="work-item-inner">
+        <div class="work-media">
+          <video class="work-video" muted loop playsinline preload="metadata" poster="">
+            <source src="clip3.mp4" type="video/mp4" />
+          </video>
+          <div class="work-overlay"></div>
+        </div>
+        <div class="work-meta">
+          <div class="work-meta-top">
+            <span class="work-index">— 03</span>
+            <span class="work-tag">Website · GBP · SEO</span>
+          </div>
+          <h3 class="work-title"><span data-split>Blossom and Events Decor by Nitesh</span></h3>
+          <p class="work-desc">A bespoke events &amp; decor studio with a portfolio-led website, optimised Google Business Profile and content built around the keywords brides actually search for.</p>
+          <div class="work-arrow">↗</div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-label" data-reveal="fade">04 — Process</div>
+    <h2 class="section-title">
+      <span class="line"><span class="line-inner" data-split>How we</span></span>
+      <span class="line"><span class="line-inner" data-split><em>work.</em></span></span>
+    </h2>
+
+    <div class="process-steps">
+      <div class="process-step" data-reveal="rise">
+        <div class="step-num">01</div>
+        <h3>Discover</h3>
+        <p>We learn your business, audience and the keywords your customers actually type into Google.</p>
+      </div>
+      <div class="process-step" data-reveal="rise">
+        <div class="step-num">02</div>
+        <h3>Design</h3>
+        <p>Wireframes, brand visuals and a content plan built around the search terms that drive revenue.</p>
+      </div>
+      <div class="process-step" data-reveal="rise">
+        <div class="step-num">03</div>
+        <h3>Develop</h3>
+        <p>Hand-coded, fast, accessible and SEO-ready. Schema, sitemaps, Core Web Vitals — all baked in.</p>
+      </div>
+      <div class="process-step" data-reveal="rise">
+        <div class="step-num">04</div>
+        <h3>Grow</h3>
+        <p>GBP set up, ads launched, rankings tracked. We optimize monthly so leads keep climbing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROMISES -->
+<section class="promises">
+  <div class="container">
+    <div class="section-label light" data-reveal="fade">— What you can count on</div>
+    <h2 class="promises-title">
+      <span class="line"><span class="line-inner" data-split>A studio, not</span></span>
+      <span class="line"><span class="line-inner" data-split>an <em>agency.</em></span></span>
+    </h2>
+    <div class="promises-grid">
+      <div class="promise" data-reveal="rise">
+        <div class="promise-num">01</div>
+        <h3 class="promise-title-small">Hand-coded.</h3>
+        <p>Every site we ship is custom-built. No templates, no page builders, no shortcuts that compromise speed or SEO.</p>
+      </div>
+      <div class="promise" data-reveal="rise">
+        <div class="promise-num">02</div>
+        <h3 class="promise-title-small">Founder-led.</h3>
+        <p>You'll work directly with the builder of your project. No account managers, no handoffs, no telephone games.</p>
+      </div>
+      <div class="promise" data-reveal="rise">
+        <div class="promise-num">03</div>
+        <h3 class="promise-title-small">SEO-first.</h3>
+        <p>Search-ready from the first line of HTML. Schema, structured data and the right keywords — built in, not bolted on.</p>
+      </div>
+      <div class="promise" data-reveal="rise">
+        <div class="promise-num">04</div>
+        <h3 class="promise-title-small">24-hour reply.</h3>
+        <p>Every email, every message, every time. We treat your project like the priority it is — because to you, it is.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-label" data-reveal="fade">05 — Words from clients</div>
+    <h2 class="section-title">
+      <span class="line"><span class="line-inner" data-split>They came for a website.</span></span>
+      <span class="line"><span class="line-inner" data-split><em>They stayed for the growth.</em></span></span>
+    </h2>
+    <div class="testimonial-grid">
+      <blockquote class="testimonial" data-reveal="rise">
+        <p>"Within three months of launch we were ranking #1 for our service area. Quote requests through the roof."</p>
+        <footer><strong>Owner</strong><span>Invincible Tiling</span></footer>
+      </blockquote>
+      <blockquote class="testimonial" data-reveal="rise">
+        <p>"Bhoomi Codes didn't just hand us a pretty website — they handed us a marketing engine. Our Google calls doubled."</p>
+        <footer><strong>Founder</strong><span>Bling Cleaning</span></footer>
+      </blockquote>
+      <blockquote class="testimonial" data-reveal="rise">
+        <p>"The site is fast, the SEO works, and the inquiries bring real clients. Finally a digital presence that matches our brand."</p>
+        <footer><strong>Nitesh</strong><span>Blossom and Events Decor</span></footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / CTA -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="section-label light" data-reveal="fade">06 — Let's build</div>
+    <h2 class="cta-title">
+      <span class="line"><span class="line-inner" data-split>Ready to get found</span></span>
+      <span class="line"><span class="line-inner" data-split>on <em>Google?</em></span></span>
+    </h2>
+    <p class="cta-sub" data-reveal="words">Tell us about your business and we'll send back a custom quote within 24 hours.</p>
+
+    <form class="contact-form" id="contactForm" data-reveal="fade">
+      <div class="form-row">
+        <div class="form-field">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-field">
+          <label for="business">Business name</label>
+          <input type="text" id="business" name="business" />
+        </div>
+        <div class="form-field">
+          <label for="service">I'm interested in</label>
+          <select id="service" name="service">
+            <option>A new website</option>
+            <option>SEO services</option>
+            <option>Google Business Profile setup</option>
+            <option>Google Ads management</option>
+            <option>The full growth package</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="message">Tell us about your project</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-large" data-magnetic>
+        <span>Send message</span>
+        <span class="btn-arrow">↗</span>
+      </button>
+    </form>
+
+    <div class="contact-direct" data-reveal="fade">
+      <span>Or reach out directly:</span>
+      <a href="mailto:hello@bhoomicodes.com">hello@bhoomicodes.com</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-big" data-reveal="fade">
+      <span data-split>We code.</span>
+      <span data-split><em>You grow.</em></span>
+    </div>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="Logo.png" alt="Bhoomi Codes" />
+        <p>Websites · SEO · Google Business · Google Ads</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <h5>Services</h5>
+          <a href="#services">Web Design</a>
+          <a href="#services">SEO</a>
+          <a href="#services">Google Business Profile</a>
+          <a href="#services">Google Ads</a>
+        </div>
+        <div>
+          <h5>Studio</h5>
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h5>Connect</h5>
+          <a href="mailto:hello@bhoomicodes.com">Email</a>
+          <a href="#" target="_blank" rel="noopener">Instagram</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Bhoomi Codes. All rights reserved.</span>
+      <span>Crafted with code. Designed for growth.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
