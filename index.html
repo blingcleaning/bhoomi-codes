@@ -34,6 +34,17 @@
 <div class="cursor" id="cursor"></div>
 <div class="cursor-follower" id="cursorFollower"><span class="cursor-label" id="cursorLabel"></span></div>
 
+<!-- Top announcement bar -->
+<div class="top-bar" id="topBar">
+  <div class="top-bar-inner">
+    <span class="top-bar-msg">Call us today to grow your business</span>
+    <span class="top-bar-sep">—</span>
+    <a href="tel:+14388651699" class="top-bar-link">438-865-1699</a>
+    <span class="top-bar-sep">·</span>
+    <a href="mailto:bhoomimalik16@gmail.com" class="top-bar-link">bhoomimalik16@gmail.com</a>
+  </div>
+</div>
+
 <!-- Page transition overlay -->
 <div class="page-transition" id="pageTransition"></div>
 
@@ -76,6 +87,8 @@
   <a href="#process">Process</a>
   <a href="#about">About</a>
   <a href="#contact">Contact</a>
+  <a href="tel:+14388651699" class="mobile-menu-phone">438-865-1699</a>
+  <a href="mailto:bhoomimalik16@gmail.com" class="mobile-menu-email">bhoomimalik16@gmail.com</a>
 </div>
 
 <!-- HERO -->
@@ -284,8 +297,8 @@
       </div>
     </article>
 
-    <article class="work-item work-item--video work-item--reverse" data-cursor="View">
-      <div class="work-item-inner">
+    <article class="work-item work-item--video work-item--reverse" data-cursor="Visit">
+      <a class="work-item-inner" href="https://blingcleaningservices.ca/" target="_blank" rel="noopener">
         <div class="work-media">
           <video class="work-video" muted loop playsinline preload="metadata" poster="">
             <source src="clip2.mp4" type="video/mp4" />
@@ -299,13 +312,13 @@
           </div>
           <h3 class="work-title"><span data-split>Bling Cleaning</span></h3>
           <p class="work-desc">A premium cleaning service with an online booking flow and a tightly targeted Google Ads campaign that fills the calendar week after week.</p>
-          <div class="work-arrow">↗</div>
+          <span class="work-arrow" aria-hidden="true">↗</span>
         </div>
-      </div>
+      </a>
     </article>
 
-    <article class="work-item work-item--video" data-cursor="View">
-      <div class="work-item-inner">
+    <article class="work-item work-item--video" data-cursor="Visit">
+      <a class="work-item-inner" href="https://blossomeventsanddecorbynitesh.com/" target="_blank" rel="noopener">
         <div class="work-media">
           <video class="work-video" muted loop playsinline preload="metadata" poster="">
             <source src="clip3.mp4" type="video/mp4" />
@@ -319,9 +332,9 @@
           </div>
           <h3 class="work-title"><span data-split>Blossom and Events Decor by Nitesh</span></h3>
           <p class="work-desc">A bespoke events &amp; decor studio with a portfolio-led website, optimised Google Business Profile and content built around the keywords brides actually search for.</p>
-          <div class="work-arrow">↗</div>
+          <span class="work-arrow" aria-hidden="true">↗</span>
         </div>
-      </div>
+      </a>
     </article>
 
   </div>
@@ -429,7 +442,11 @@
     </h2>
     <p class="cta-sub" data-reveal="words">Tell us about your business and we'll send back a custom quote within 24 hours.</p>
 
-    <form class="contact-form" id="contactForm" data-reveal="fade">
+    <form class="contact-form" id="contactForm" action="https://formsubmit.co/bhoomimalik16@gmail.com" method="POST" data-reveal="fade">
+      <input type="hidden" name="_subject" value="New enquiry from Bhoomi Codes website" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
       <div class="form-row">
         <div class="form-field">
           <label for="name">Your name</label>
@@ -468,7 +485,8 @@
 
     <div class="contact-direct" data-reveal="fade">
       <span>Or reach out directly:</span>
-      <a href="mailto:hello@bhoomicodes.com">hello@bhoomicodes.com</a>
+      <a href="tel:+14388651699">438-865-1699</a>
+      <a href="mailto:bhoomimalik16@gmail.com">bhoomimalik16@gmail.com</a>
     </div>
   </div>
 </section>
@@ -502,7 +520,8 @@
         </div>
         <div>
           <h5>Connect</h5>
-          <a href="mailto:hello@bhoomicodes.com">Email</a>
+          <a href="tel:+14388651699">438-865-1699</a>
+          <a href="mailto:bhoomimalik16@gmail.com">bhoomimalik16@gmail.com</a>
           <a href="#" target="_blank" rel="noopener">Instagram</a>
           <a href="#" target="_blank" rel="noopener">LinkedIn</a>
           <a href="#" target="_blank" rel="noopener">WhatsApp</a>
